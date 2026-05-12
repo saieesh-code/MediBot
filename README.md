@@ -60,4 +60,6 @@ The project features a clean modern UI with real-time AI conversations powered b
 project-folder/
 │
 ├── app.py
+├── requirements.txt
+├── README.md
 └── .env
