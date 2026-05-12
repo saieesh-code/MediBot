@@ -157,7 +157,11 @@ header {
 # API CHECK
 # ----------------------------
 if not api_key:
-    st.error("GOOGLE_API_KEY not found in .env file")
+    st.error(
+
+        "GOOGLE_API_KEY not found. Add it in .env or Streamlit Secrets."
+
+    )
     st.stop()
 
 # ----------------------------
