@@ -10,6 +10,11 @@ from langchain_core.prompts import ChatPromptTemplate
 load_dotenv()
 
 api_key = os.getenv("GOOGLE_API_KEY")
+# Streamlit Cloud Secrets fallback
+
+if not api_key:
+
+    api_key = st.secrets["GOOGLE_API_KEY"]
 
 # ----------------------------
 # PAGE CONFIG
