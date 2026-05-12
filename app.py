@@ -96,6 +96,13 @@ header {
     padding: 14px;
     border: 1px solid rgba(255,255,255,0.06);
 }
+.stChatMessage p,
+.stChatMessage div,
+.stChatMessage span,
+.stChatMessage strong,
+.stChatMessage li {
+    color: white !important;
+}
 
 .stChatInputContainer {
     background: rgba(255,255,255,0.05) !important;
